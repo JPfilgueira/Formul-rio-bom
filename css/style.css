@@ -1,0 +1,68 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/59/47/6c/59476c3211e81aaa49c5d3f7ed3a940f.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.titulo {
+    color: rgb(214, 105, 141);
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+.caixa {
+    height: 210;
+    width: 440px;
+    margin-left: 650px;
+    margin-top: 0px;
+    background: transparent;
+    border: 2px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 20px ;
+    color: rgb(255, 0, 242);
+    border-radius: 10px;
+    padding: 30px 80px;
+}
+
+.valor1,
+.valor2,
+.valor3,
+.valor4,
+.valor5,
+.valor6,
+.valor7,
+.valor8,
+.valor9,
+.valor10 {
+    background-color: white;
+    height: 30px;
+    width: 400px;
+    padding-left: 0px;
+    color: rgb(194, 104, 216);
+    font-family: cursive;
+    font-weight: 10000;
+    padding: 2px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(214, 105, 141);
+    display: flex;
+    justify-content: end;
+}
+.valor10{
+    height: 70px;
+    width: 400px;
+    margin-right: 20px;
+}
+.botao {
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    color: blue;
+}
